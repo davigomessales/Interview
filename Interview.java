@@ -4,13 +4,9 @@ public class Interview{
         return Integer.valueOf(entrada);
     }
 
-    Integer revertNumber(int entrada){
-        return entrada*10 + entrada%10;
-    }
     Integer inverteNumero(int entrada){
         StringBuffer sb = new StringBuffer();
         Integer result = 0;
-
         sb.append(entrada);
         result = Integer.parseInt(sb.reverse().toString());
         return result;
